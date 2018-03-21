@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Minh Duc Hoang - Front End Developer</title>
+      <meta charset="utf-8">
+      <meta name="description" content="Resume of Minh Duc Hoang">
+      <meta name="keywords" content="cv, resume, minh duc hoang, front-end, developer">
+
+      <meta name="author" content="Hoàng Đào Minh Đức">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+      <link href="fonts/font.css" rel="stylesheet">
+      <link rel="shortcut icon" href="images/favicon.ico" />
+      //Inspired by Pham Huy Hoang's website
+
+  </head>
+
+  <body>
+<!-- Nav bar fixed top -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top ">
+      <div class="container">
+        <a class="navbar-brand" href="" onclick="reloadFunction()" style="font-size:22px">MinhDucHoang</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education" style="padding-right:0px">Education</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<!-- Intro -->
+ <div id="banner">
+ 	    <div class="container">
+ 	      <div class="banner">
+ 	        <h1>I'm Minh Duc Hoang</h1>
+ 	        <hr>
+ 	        <hr>
+ 	        <h2>A Front-end Developer</h2>
+ 	          
+ 			<p class="icon">
+        <a href="https://www.facebook.com/minhduchoang.dev" target="_blank" id="facebook"><span class="fa-stack fa-2x" >
+	          <i class="fa fa-circle fa-stack-2x"></i>
+	          <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+	        </span></a>
+              <a href="https://stackoverflow.com/users/9464236/minh-duc-hoang" target="_blank"><span class="fa-stack fa-2x" id="stack-overflow">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
+              </span></a>
+              <a href="https://github.com/MiDuDeZa" target="_blank"><span class="fa-stack fa-2x" id="github">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </span></a>
+	        <a href="https://www.linkedin.com/in/minh-duc-dev" target="_blank"><span class="fa-stack fa-2x" id="linkedin" >
+	          <i class="fa fa-circle fa-stack-2x"></i>
+	          <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+	        </span></a>
+ 		   </p>
+ 		   
+ 		   </div>
+ 	    </div>
+ 	</div>
+
+<!-- About me -->
+	<div id="about"> 
+	 </div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="card" id="card" >
+          <img class="card-img-top" src="images/avatar.jpg" alt="Card image" style="width:100%" >
+          <div class="card-body">
+            <h5 class="card-title" style="color: #444"><b>Hoang Dao Minh Duc</b></h5>
+            <p class="card-text"><kbd>"Screw it, just do it"</kbd></p>
+            <a href="resume/[Front-end Developer] Minh Duc Hoang.pdf" 
+            class="btn btn-primary resume" download>
+              <span class="fa-stack fa-1x" id="download" >
+              <i class="fa fa-download fa-stack-1x fa-inverse"></i>
+              </span>
+              <span>My CV</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="post">
+          <div class="post-heading">
+            <div class="image">
+              <img src="images/profile-img.jpg" class="img-circle" alt="user profile image">
+            </div>
+            <div class="announce">
+              <div class="title">
+                <a href="#about"><b>Minh Duc Hoang </b></a><span>made a post</span>
+              </div>
+              <h6 class="time">1 minute ago</h6>
+            </div>
+          </div>
+          <div class="post-content">
+            <p>I’m Hoang Dao Minh Duc, a front-end developer. I have taught myself <b>HTML/CSS, Javascript</b> and framework <b>Bootstrap</b>, library <b>Jquery</b> in a year. I am passionate about developing websites, especially front-end development. I am eager to learn new technologies and able to adapt myself to new circumstances.</p>
+            <p>I am considered as an enthusiastic, hardworking and friendly employee. As a collaborative person, I have no trouble adapting to new environment, and new cowokers.
+</p>
+            <p>With the aforementioned skills and knowledge, I would love to be recruited in a professional and dynamic organization. My goal is to gain work experience, approach new technologies as well as work together with other developers. With the experiences and knowlegde I have gathered from my previous education, my profound English skills and the burning passion, I commit to dedicate all my abilities for the success of the organization..</p>
+            <p>Thank you for your consideration!</p>
+          <div class="stats">
+                <button type="button" class="btn btn-outline-light text-dark" onclick="likeFunction()" ondblclick="warningFunction()">
+
+                    <span class="fa fa-thumbs-up like" id="like">200</span>
+                </button>
+                <button type="button" class="btn btn-outline-light text-dark" onclick="dislikeFunction()" ondblclick="warningFunction()"F>
+                    <span class="fa fa-thumbs-down like" id="dislike">12</span>
+                </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card bg-light mb-3" style="max-width: 18rem;">
+            <div class="card-body">
+            <h6 class="card-title" style="color: #555">CONTACT INFO</h6>
+            <ul class="list-group">
+              <li class="list-group-item fa fa-map-marker"><span>Sai Dong, Ha Noi, VN</span></li>
+              <li class="list-group-item fa fa-phone"><span>0904 547 641</span></li>
+              <li class="list-group-item fa fa-envelope"><span><a href="mailto:mducdev@gmail.com">mducdev@gmail.com</a></span></li>
+              <li class="list-group-item fa fa-globe"><span><a href="https://minhduccv.000webhostapp.com/" target="_blank">minhduccv.com</a></span></li>
+            </ul>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Skills -->
+	<div class="info" id="skills">
+	    <h2><span>SKILLS</span></h2>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="section">
+					<h3><kbd>PROGRAMMING LANGUAGES</kbd></h3>
+					<ul>
+						<li>HTML 5, CSS 3, Java Script</li>
+						<li>Basic of C, C++, Python</li>
+					</ul>
+					<h3><kbd>FRAMEWORKS & PLATFORMS</kbd></h3>
+					<ul>
+						<li>Bootstrap 4</li>
+						<li>JQuery</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="section">
+					<h3><kbd>IDE</kbd></h3>
+					<ul>
+						<li>Sublime Text</li>
+						<li>Atom</li>
+						<li>Adobe Dreamweaver</li>
+					</ul>
+					<h3><kbd>FOREIGN LANGUAGE</kbd></h3>
+					<ul>
+						<li>Good English communication skills</br><span>(Currently working at Langmaster English center as a teaching assistant)</span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="section">
+					<h3><kbd>SOFT SKILLS</kbd></h3>
+					<ul>
+						<li>Self-confidence</li>
+						<li>Growth mindset</li>
+						<li>Adaptability</li>
+						<li>Collaborative teamwork</li>
+						<li>Critical thinking/problem solving</li>
+						<li>Effective communication</li>
+					</ul>
+				</div>
+			</div>
+			
+			
+			
+		</div>
+	</div>
+<!-- Education -->
+  <div class="info" id="education">
+      <h2><span>EDUCATION</span></h2>
+  </div>
+      <div class="container">
+      	<div class="education">
+      		<div class="heading">
+      			<div class="picture">
+      				<img src="images/bach-khoa.jpg" class="edu-img" alt="bach-khoa">
+      			</div>
+      			<div class="edu-time">
+      				<h5><b>2017 - Now</b></h5>
+      			</div>
+      		</div>
+      		<div class="describe">
+      			<h3><kbd>Ha Noi University of Science and Technology</kbd></h3>
+      			<p>I'm in the PFIEV program - a French program for excellent students.</p>
+      		</div>
+      	</div>
+      
+
+      <div class="education">
+      		<div class="heading">
+      			<div class="picture">
+      				<img src="images/coc-coc.png" class="edu-img" alt="bach-khoa">
+      			</div>
+      			<div class="edu-time">
+      				<h5><b>October 2017</b></h5>
+      			</div>
+      		</div>
+      		<div class="describe">
+      			<h3><kbd>Coc coc: Basic C++ course</kbd></h3>
+      			<p>I passed their intro test and learnt the basic C++ with no fee.</p>
+      		</div>
+      	</div>
+      
+
+      <div class="education">
+      		<div class="heading">
+      			<div class="picture">
+      				<img src="images/techkids.jpg" class="edu-img" alt="bach-khoa">
+      			</div>
+      			<div class="edu-time">
+      				<h5><b>July 2016</b></h5>
+      			</div>
+      		</div>
+      		<div class="describe">
+      			<h3><kbd>Techkids: Code for everyone course</kbd></h3>
+      			<p>I learnt the basic of Python there.</p>
+      		</div>
+      	</div>
+      
+
+      <div class="education">
+      		<div class="heading">
+      			<div class="picture">
+      				<img src="images/thang-long.jpeg" class="edu-img" alt="bach-khoa">
+      			</div>
+      			<div class="edu-time">
+      				<h5><b>2014 - 2017</b></h5>
+      			</div>
+      		</div>
+      		<div class="describe">
+      			<h3><kbd>Thang Long high school</kbd></h3>
+      			<p>I was excellent at physics im my class, and I got 2 consolation prizes from the city's competition in 2015 and 2016</p>
+      		</div>
+      	</div>
+      </div>
+  
+<!-- Footer -->
+  <div class="container">
+    <div class="footer">
+      <p>&copy; Copyright 2017 <p>
+    </div>
+  </div>
+<!--Js at the end to load the page faster  -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
